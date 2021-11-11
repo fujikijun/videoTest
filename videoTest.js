@@ -16,6 +16,7 @@ function setup() {
 }
 
 function draw() {
+  fingers.loop();
   background(150);
   image(fingers, 10, 10, 400, 240 ); // draw the video frame to canvas
   filter(GRAY);
